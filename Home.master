@@ -1,0 +1,105 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="Home.master.cs" Inherits="Home" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Group data Sharing</title>   
+    <!-- Meta tag Keywords -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="Savage Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script>
+        addEventListener("load", function() {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+
+    </script>
+    <!-- //Meta tag Keywords -->
+    <!-- Custom-Files -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Bootstrap-Core-CSS -->
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
+    <!-- Style-CSS -->
+    <!-- font-awesome-icons -->
+    <link href="css/font-awesome.css" rel="stylesheet">
+    <!-- //font-awesome-icons -->
+    <!-- /Fonts -->
+    <link href="//fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i" rel="stylesheet">
+    <!-- //Fonts -->
+</head>
+
+<body>
+    <!-- mian-content -->
+    <div class="main-w3layouts-header-sec">
+        <!-- header -->
+        <header class="header-w3pvt">
+            <div class="container-fluid inner-sec-w3ls">
+                <div class="header d-lg-flex justify-content-between align-items-center">
+                    <!-- logo -->
+                   <h1 class="logo">
+                        <a href="#">Group Data Sharing
+                        </a>
+                    </h1>
+                    <!-- //logo -->
+                    <!-- nav -->
+                    <div class="nav_w3ls">
+                        <nav>
+                            <label for="drop" class="toggle toogle-2">Menu</label>
+                            <input type="checkbox" id="drop" />
+                            <ul class="menu">
+                                <li><a href="Home.aspx">Home</a></li>
+                                <li><a href="GMLogin.aspx">Group Manager</a></li>                                
+                                <li><a href="UserLogin.aspx">Users</a></li>
+                                <li><a href="Cloud.aspx">Cloud</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <!-- //nav -->
+                </div>
+            </div>
+        </header>
+    </div>
+    <!-- //header -->
+    <div class="main-content inner" id="home">
+        <div class="wthree-overlay inner">
+
+        </div>
+    </div>
+
+    <!--// mian-content -->
+    <section class="some-content py-5" id="about">
+        <div class="container py-md-5">
+            <div class="content-sing-w3pvt px-lg-5">
+             <form runat="server" id="form1">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+             </asp:ContentPlaceHolder> 
+             </form>  
+            </div>
+        </div>
+    </section>
+    <!--//single-page -->
+    <!-- footer -->
+    <footer class="footer py-5 text-center" id="contact">
+        <div class="container py-md-5">           
+
+        </div>
+    </footer>
+    <!-- //footer -->
+    <!-- copyright -->
+    <div class="copy_right text-center py-3">
+        <p>&nbsp;
+
+        </p>
+
+    </div>
+    <!-- //copyright -->
+
+
+</body>
+
+</html>
